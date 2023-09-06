@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HSBC Javascript Assignment</title>
+</head>
+<body class="bg-gradient-to-r from-indigo-500 to-emerald-500">
+    <div class="todolist mx-auto my-14 py-5 px-14 bg-white max-w-[540px] rounded-xl">
+        <div class="title text-slate-800 font-bold text-2xl">
+            TODOLIST
+        </div>
+    
+        <div class="input-row flex my-4">
+            <input type="text" class="!outline-none bg-slate-200 rounded-l-md py-1 px-4" id="input-task" placeholder="Add Tasks Here">
+            <button type="button" onclick="addTasks()" class="bg-orange-200 rounded-r-md p-1 w-8 font-bold text-xl text-gray-700 hover:bg-orange-400">+</button>
+        </div>
+
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
